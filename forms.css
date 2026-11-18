@@ -145,7 +145,13 @@ button.secondary:hover {
 }
 
 @media (max-width: 520px) {
-
+    
+    .quiz-header p {
+        width: 245%;
+        display: flex;
+        text-align: justify;
+    }
+        
     .quiz-container {
         padding: 22px 16px;
     }
