@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz sobre Rep. Romana</title>
+
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+
+    <main class="quiz-container">
+        <header class="quiz-header">
+            
+            <span class="tag">República Romana (509 a.C. a 27 a.C.)</span>
+
+                <div class="imagem">
+                    <img src="louro.png" alt="Coroa de louro" height="120px" width="170px">
+                </div>
+            <h1>Contexto Geral e Triunviratos</h1>
+            
+            <p>
+                Teste seus conhecimentos sobre esse importante período para a história da Roma Antiga! 
+            </p>
+        </header>
+
+        <form id="quiz-form">
+
+            <section class="question">
+                <h2>1. O Primeiro Triunvirato, formado em 60 a.C., foi uma aliança política formada por três líderes. Quais foram esses líderes?</h2>
+
+                <label>
+                    <input type="radio" name="q1" value="a">
+                    Otávio, Marco Antônio e Lépido
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="b">
+                    Júlio César, Pompeu e Crasso
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="c">
+                    Rômulo, Remo e Tarquínio
+                </label>
+            </section>
+
+            <section class="question">
+                <h2>2. Qual era o objetivo da formação dos triunviratos em Roma?</h2>
+
+                <label>
+                    <input type="radio" name="q2" value="a">
+                    Substituir o Império Romano por um sistema republicano
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="b">
+                    Proteger Roma contra invasões estrangeiras
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="c">
+                    Concentrar poder durante a crise da República Romana
+                </label>
+            </section>
+
+            <section class="question">
+                <h2>3. Após o fim do Primeiro Triunvirato, Roma mergulhou em umacrise. Para reorganizar o governo, foi formado o Segundo Triunvirato (43 a.C.), que era formado por?</h2>
+
+                <label>
+                    <input type="radio" name="q3" value="a">
+                    Caio Otávio, Marco Antônio e Lépido
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="b">
+                    Lépido, Cássio e Pompeu
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="c">
+                    Pompeu, Crasso e Brutus
+                </label>
+            </section>
+
+            <section class="question">
+                <h2>4. Qual fator provocou o fim tanto do Primeiro quanto do Segundo Triunvirato?</h2>
+
+                <label>
+                    <input type="radio" name="q4" value="a">
+                    As rivalidades e disputas internas entre os próprios membros das alianças
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="b">
+                    A pressão popular contra a concentração de poder
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="c">
+                    A intervenção direta de líderes estrangeiros no governo
+                </label>
+            </section>
+
+            <section class="question">
+                <h2>5. Qual acontecimento marcou a transição da República para o Império Romano?</h2>
+
+                <label>
+                    <input type="radio" name="q5" value="a">
+                    O assassinato de Júlio César antes da criação do Segundo Triunvirato
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="b">
+                    A união entre Júlio César, Pompeu e Crasso
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="c">
+                    A vitória de Otávio sobre Marco Antônio após as disputas internas do Segundo Triunvirato
+                </label>
+            </section>
+
+            <div class="actions">
+
+                <button type="submit">
+                    Finalizar quiz
+                </button>
+
+                <button type="reset" class="secondary">
+                    Limpar respostas
+                </button>
+
+            </div>
+
+        </form>
+
+        <section
+            id="result"
+            class="result"
+            aria-live="polite"
+            hidden>
+        </section>
+
+    </main>
+
+<script src="forms.js" defer></script>
+
+</body>
+</html>
